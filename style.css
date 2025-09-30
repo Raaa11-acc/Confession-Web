@@ -1,0 +1,46 @@
+body{
+    background-color: gainsboro;
+}
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+}
+img{
+    width: 150px;
+    border-radius: 10px;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
+}
+.Yes{
+    cursor: pointer;
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+.Yes:hover{
+    background-color: darkgreen;
+}
+.No{
+    cursor: pointer;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+.No:hover{
+    background-color: darkred;
+}
